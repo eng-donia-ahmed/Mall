@@ -48,7 +48,7 @@ function vali(e) {
 
     if (isValid) {
         setTimeout(() => {
-            window.location.href = "home-page.html"; // اسم الصفحة الثانية هنا
+            window.location.href = "index.html"; // اسم الصفحة الثانية هنا
         }, 2000); // هذا يجعل النموذج يرسل إذا كانت جميع الحقول صحيحة
     }
 }

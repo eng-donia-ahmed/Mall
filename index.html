@@ -1,51 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <!-- //google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- css -->
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sign up</title>
+    <title>HOME-PAGE</title>
+    <link rel="stylesheet" href="newhome.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="content">
-            <div class="welcome">
-                <h1>Welcome</h1>
-                <p>Hello in this mall here you can get any thing you need</p>
+    <header>
+        <main class="nav-bar">
+            <div class="nav-bar-left">
+                <span></span> <span>M</span>all
             </div>
-            <form id="form">
-                <h1>sign up</h1>
-                <label for="name">Name</label>
-                <input type="text" id="name">
-                <div id="name-error" class="error-message">Please fill this</div>
-                <label for="email">E-mail</label>
-                <input type="email" id="email">
-                <div id="e-error" class="error-message">Please fill this</div>
-                <label for="password">Password</label>
-                <input type="password" id="password">
-                <div id="p-error" class="error-message">Please fill this</div>
-                <input type="submit" >
-                <pre>---------------<span>OR</span>---------------</pre>
-                <div class="facebook">
-                    <a href="https://www.facebook.com/">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                    <p>with facebook</p>
-                </div>
-                <div class="google">
-                    <a href="https://passwords.google.com/?hl=ar&pli=1">
-                        <i class="fa-brands fa-google"></i>
-                    </a>
-                    <p>with google</p>
-                </div>
-            </form>
+            <div id="menu" class="nav-bar-center">
+                <a href="HTML/res.html">Restaurants</a>
+                <a href="Make-up.html">Make-up</a>
+                <a href="cc.html">Clothes</a>
+                <a href="project2.html">Cinema</a>
+                <a href="who.html">Feedback</a>
+            </div>
+            <div class="nav-bar-right">
+                <a href="HTML/login.html"><button class="log-in">log in</button></a>
+                <a href="sign-up.html"><button class="sign-up">sign-up</button></a>
+            </div>
+        </main>
+        <div class="center">
+            <h1>Welcome</h1>
+            <br>
+            <h2>
+                Your journey to amazing finds starts here ....
+            </h2>
         </div>
-    </div>
-    <script src="script.js"></script>
+    </header>
+    <section class="food">
+        <div class="row">
+            <div class="h2">
+                <h2>Your perfect meal awaits!"</h2>
+            </div>
+            <div class="albums">
+                <div class="image">
+                    <img src="images/images.jpeg" alt="food">
+                </div>
+                <div class="image">
+                    <img src="images/download.jpeg" alt="food">
+                </div>
+                <div class="image">
+                    <img src="images/images (1).jpeg" alt="food">
+                </div>
+                <div class="image">
+                    <img src="images/images (2).jpeg" alt="food">
+                </div>
+                <div class="image">
+                    <img src="images/download (1).jpeg" alt="food">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="albums">
+                <div class="image">
+                    <img src="images/food1.jpeg" alt="food">
+                </div>
+                <div class="image">
+                    <img src="images/food2.jpeg" alt="food">
+                </div>
+                <div class="image">
+                    <img src="images/food3.jpeg" alt="food">
+                </div>
+                <div class="image">
+                    <img src="images/food4.jpeg" alt="food">
+                </div>
+                <div class="image">
+                    <img src="images/food5.jpeg" alt="food">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="make-up">
+        <div class="row">
+            <div class="h2">
+                <h2>Create your flawless look!</h2>
+            </div>
+            <div class="albums">
+                <div class="image">
+                    <img src="images/ايشادو.jpg" alt="make-up">
+                </div>
+                <div class="image">
+                    <img src="images/ميكاب.webp" alt="make-up">
+                </div>
+                <div class="image">
+                    <img src="images/ميكاب2.webp" alt="make-up">
+                </div>
+                <div class="image">
+                    <img src="images/ميكاب3.webp" alt="make-up">
+                </div>
+                <div class="image">
+                    <img src="images/ميكاب4.webp" alt="make-up">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="albums">
+                <div class="image">
+                    <img src="images/ميكاب5.webp" alt="make-up">
+                </div>
+                <div class="image">
+                    <img src="images/ميكاب6.webp" alt="make-up">
+                </div>
+                <div class="image">
+                    <img src="images/ميكاب7.webp" alt="make-up">
+                </div>
+                <div class="image">
+                    <img src="images/ميكاب8.webp" alt="make-up">
+                </div>
+                <div class="image">
+                    <img src="images/ميكاب9.webp" alt="make-up">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="clothes">
+        <div class="row">
+            <div class="h2">
+                <h2>Discover the latest trends!</h2>
+            </div>
+            <div class="albums">
+                <div class="image">
+                    <img src="images/clothe1.jpeg" alt="food">
+                </div>
+                <div class="image">
+                    <img src="images/clothe10.jpeg" alt="food">
+                </div>
+                <div class="image">
+                    <img src="images/clothe2.jpeg" alt="food">
+                </div>
+                <div class="image">
+                    <img src="images/clothe8.jpeg" alt="food">
+                </div>
+                <div class="image">
+                    <img src="images/clothe4.jpeg" alt="food">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="albums">
+                <div class="image">
+                    <img src="images/clothe5.jpeg" alt="food">
+                </div>
+                <div class="image">
+                    <img src="images/clothe7.jpeg" alt="food">
+                </div>
+                <div class="image">
+                    <img src="images/clothe3.jpeg" alt="food">
+                </div>
+                <div class="image">
+                    <img src="images/clothe6.jpeg" alt="food">
+                </div>
+                <div class="image">
+                    <img src="images/clothe9.jpeg" alt="food">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cinema">
+        <div class="row">
+            <div class="h2">
+                <h2>Your adventure starts at the cinema!</h2>
+            </div>
+            <div class="albums">
+                <div class="image">
+                    <img src="images/aliens.jpeg" alt="movie">
+                </div>
+                <div class="image">
+                    <img src="images/WhatsApp Image 2024-04-30 at 22.48.15_0dfefecf.jpg" alt="movie">
+                </div>
+                <div class="image">
+                    <img src="images/المصلحة.jpeg" alt="movie">
+                </div>
+                <div class="image">
+                    <img src="images/الخلية.jpeg" alt="movie">
+                </div>
+                <div class="image">
+                    <img src="images/WhatsApp Image 2024-04-30 at 22.48.15_d422ec5c.jpg" alt="movie">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="albums">
+                <div class="image">
+                    <img src="images/WhatsApp Image 2024-04-30 at 22.48.16_01c02a92.jpg" alt="movie">
+                </div>
+                <div class="image">
+                    <img src="images/WhatsApp Image 2024-04-30 at 22.48.16_7b7d2460.jpg" alt="movie">
+                </div>
+                <div class="image">
+                    <img src="images/WhatsApp Image 2024-04-30 at 22.48.16_c575faa3.jpg" alt="movie">
+                </div>
+                <div class="image">
+                    <img src="images/WhatsApp Image 2024-04-30 at 22.48.17_46acbd6e.jpg" alt="movie">
+                </div>
+                <div class="image">
+                    <img src="images/WhatsApp Image 2024-04-30 at 22.48.17_8b51686c.jpg" alt="movie">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="copyright">Copyright © 2024 All rights reserved 
+        </p>
+    </footer>
 </body>
+
 </html>
