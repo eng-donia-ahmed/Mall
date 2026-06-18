@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="who.css">
+</head>
+
+<body>
+    <div class="mhfeedback">
+        <header>feedback</header>
+        <div class="obbb">
+            <form action="mmm.php" method="get">
+                <div class="l">
+                    <label>Name</label>
+                    <input type="text" placeholder="enter your name" required pattern="[A-Za-z]{3,}" title>
+                </div>
+                <br>
+                <div class="l">
+                    <label>E-mail</label>
+                    <input type="email" placeholder="enter your email"
+                        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title>
+                </div>
+                <br>
+                <div class="l">
+                    <label>Phone</label>
+                    <input type="tel" placeholder="enter your phone">
+                </div>
+                <br>
+                <div class="l">
+                    <label for="gender">gender</label>
+                    <select name="gender" id="gender">
+                        <option value="1">male</option>
+                        <option value="2">female</option>
+                    </select>
+                </div>
+                <br>
+                <textarea name="feed" cols="40" rows="10" placeholder="enter your feedback" required></textarea>
+        </div>
+        <input type="submit" value="save" id="save" class="save">
+        </form>
+
+    </div>
+    <script src="who.js"></script>
+</body>
+
+</html>

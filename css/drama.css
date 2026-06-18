@@ -1,0 +1,252 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+ }
+
+html {
+    scroll-behavior: smooth;
+ }
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+ }
+
+.body {
+    background-color: black;
+ }
+/* .body .mainPage {
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 15px;
+    margin-right: auto;
+    margin-right: auto;
+    border-radius: 3px;
+ } */
+
+ .cinema{
+   font-size: 55px;
+   margin-left: 5px;
+}
+nav{
+   margin-top: -35px;
+   width: 100%;
+   height: 120px;
+   background-color: #debc91;
+   border-bottom: 5px solid black;
+}
+.nav{
+   font-size: 35px;
+   display: inline-block;
+}
+nav button{
+   width: 10%;
+   font-size: 20px;
+   margin-left: 60px;
+   padding: 8px;
+   border-radius: 40px;
+   font-weight: 700;
+   /* margin:0 10px 10px; */
+   background-color: rgb(238, 238, 238);
+   font-style: italic;
+}
+nav button:hover {
+   box-shadow: 10px 10px 2px black inset;
+   color: rgb(255, 25, 25);
+   background-color: rgb(51, 125, 185); 
+}
+
+.h1{
+   text-align: center;
+   margin: auto;
+   /* margin-left: 20%; */
+   /* margin-top:0px; */
+   font-size: 79px;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #f8ead7;
+border-radius: 50px;
+width: 40%;
+/* margin-left: 460px; */
+/* border: 5px solid black; */
+}
+span{
+   font-size:90px ;
+   color: #10b8ff;
+}
+.playlists {
+    height: 245px;
+    overflow-x: hidden;
+    overflow-y: auto;
+ }
+ .playlists::-webkit-scrollbar,.scroll::-webkit-scrollbar {
+    width: 8px;
+ }
+h2 {
+    font-size: 30px;
+    font-weight:1000;
+    margin-bottom: 10px;
+    color: black;
+ }
+.cinema {
+    font-weight: 700;
+    /* background-color: rgb(0, 0, 0);  */
+    border-radius: 10px;
+    /* border: 10px solid black; */
+    margin-top: 3px;
+ }
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    display: contents;
+ }
+
+a:hover {
+    text-decoration: none;
+    color: rgb(150, 14, 14);
+ }
+/* .mainPage {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+ } */
+.mainPage .header {
+    background-color: rgba(214, 214, 214, 0.713);
+    border-radius: 10px;
+    
+ }
+.page {
+    padding: 1%;
+    background-image: url(../images/sky.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-radius: 10px; */
+    margin-top: -2px;
+ }
+.main div {
+    display: flex;
+    justify-content: space-between;
+ }
+.movies img {
+    width: 160px;
+    height:170px;
+    border-radius: 8px;
+    margin-bottom: 7px;
+    margin: 7px 13px;
+    
+ }
+.movies {
+    display: flex;
+    justify-content: space-evenly;
+ }
+.movies div {
+    margin-top: 7px;
+    border-radius: 8px;
+    padding: 17px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(73, 73, 73, 0.738);
+ }
+.movies div p {
+    margin-top: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: unset;
+ }
+.page2 {
+    overflow-x: hidden;
+    overflow-y: auto;
+ } 
+h4 {
+    color: black;
+    font-weight: 1000;
+    font-size: 22px;
+    margin-top: auto;
+ }
+
+.movies div a button,.hidden div a button ,.main button {
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 40px;
+    font-weight: 600;
+    /* margin:0 10px 10px; */
+    margin: auto;
+    background-color: rgb(238, 238, 238);
+    font-style: italic;
+
+ }
+.movies div select {
+    margin-top: 5px;
+ }
+.movies div select:hover {
+    border: 4px solid black;
+    width: 300px;
+ }
+ .movies div button:hover {
+    box-shadow: 10px 0px 2px black inset;
+    border-radius: 10px;
+    
+ }
+.movies div a button {
+    margin: 2px 5px;
+ }
+button:active {
+    color: blue;
+    background-color: rgb(177, 35, 35);
+ }
+.movies div:hover {
+    border-image-outset: 30px 0px 0px;
+    transition: 1s;
+    border: 2px solid #000000;
+    box-shadow: 10px 5px 5px 5px #000000 ;
+   margin-right: 30px;
+   transform: scale(1.2);
+ }
+.dd {
+    font-size: 65px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    /* margin:0px auto; */
+    background-color: #6b6a6ac0;
+    border-radius: 20px;
+    border: 10px solid black;
+ }
+.showButton {
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 40px;
+    font-weight: 600;
+    border: 0;
+    margin-right: 40px;
+    background-color: rgb(238, 238, 238);
+    font-style: italic;
+ }
+.main button {
+   margin-left:  50%;
+   margin-top: 5px;
+ }
+input{
+   margin: 1% 20% 0 0;
+   width: 50%;
+   height: 50px;
+   border-radius: 20px;
+   background-color: rgba(255, 255, 255, 0.425);
+   border: 3px solid black;
+   font-size: 25px;
+}
+i{
+   margin: 3px auto;
+}

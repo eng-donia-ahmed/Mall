@@ -1,0 +1,347 @@
+/* ---------------------comidy-------------------- */
+.cinema1{
+   font-size: 55px;
+   margin-left: 5px;
+   color: #000000;
+}
+.style{
+   margin-top: -35px;
+   height: 120px;
+   background-color: rgb(255, 255, 255);
+   /* border-bottom: 2px solid #000000; */
+}
+.main div {
+    display: flex;
+    justify-content: space-between;
+ }
+ .movie {
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+.nav1{
+   font-size: 35px;
+   display: inline-block;
+   color: #b90a0a;
+}
+.style button{
+   width: 10%;
+   font-size: 20px;
+   margin-left: 60px;
+   padding: 8px;
+   border-radius: 40px;
+   font-weight: 700;
+   /* margin:0 10px 10px; */
+   color: beige;
+   background-color: rgb(35, 85, 179);
+   font-style: italic;
+}
+.style button:hover {
+   box-shadow: 10px 10px 2px black inset;
+   color: rgb(255, 25, 25);
+   background-color: rgb(51, 125, 185); 
+}
+.content{
+   background-image: url(../images/comedy2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 350px;
+   margin-top: 0px;
+}
+.comidy{
+   font-size: 40px;
+   font-weight: 100%;
+   margin-top: 20px;
+   margin-left: 700px;
+   color: rgb(22, 137, 141);
+   text-align: center;
+   background-color: rgba(255, 255, 255, 0.404);
+   border-radius: 30px;
+   display: inline-block;
+
+}
+.m{
+   font-size: 60px;
+   font-weight: 1000;
+   margin-top: 20px;
+   margin-left: 400px;
+   color: rgba(173, 28, 28, 0.836);
+}
+.sent1{
+   margin-top: 40px;
+   margin-left: 650px;
+   font-size: 30px;
+   color: white;
+
+}
+.sents1{
+   margin-top: 40px;
+   margin-left: 610px;
+   font-size: 30px;
+   color: white;
+
+}
+.film1{
+   background-image: url(../images/comedy2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 700px;
+   border-top: 5px solid black;
+}
+.film0{
+   background-image: url(../images/comedy2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 600px;
+}
+.movie {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+ }
+.movie .ss{
+   /* margin-top: -30px;  */
+   margin: -120px 10px 0px -150px;
+   border-radius: 8px;
+   padding: 10px;
+   height: 280px;
+   width: 200px;
+   display: flex;
+   display: block;
+   flex-direction: column;
+   justify-content: space-between;
+   background-color: rgba(78, 78, 78, 0.342);
+   border: 3px solid black;
+}
+.type2{
+   font-size: 30px;
+   font-weight: 100;
+   margin-top: 7px;
+   margin-left: 500px;
+   margin-right: 10px;
+   margin-bottom: 0px;
+   color: rgb(47, 168, 224);
+   text-align: center;
+   width: 40%;
+   /* display: inline-block; */
+   /* display: flex; */
+   /* display: block; */
+   flex-direction: column;
+   justify-content: space-between;
+   background-color: #ffffffe0;
+   border-radius: 15px;
+   border: 5px solid black ;
+}
+.movie div {
+    /* margin-top: 30px; */
+    margin: 30px 10px 0px -150px;
+    border-radius: 8px;
+    padding: 10px;
+    height: 260px;
+    width: 200px;
+    display: flex;
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid black;
+    background-color: rgba(70, 68, 68, 0.61);
+ }
+ .movie img {
+    margin-left: 10px;
+    width: 180px;
+    height:180px;
+    border-radius: 8px;
+    
+ }
+ .movie .m button,.movie .ss button {
+    width: 60%;
+    font-size: 18px;
+    margin-left: 40px;
+    /* margin-top: -60px; */
+    /* padding: 8px; */
+    border-radius: 40px;
+    font-weight: 700;
+    /* margin:0 10px 10px; */
+    background-color: rgb(238, 238, 238);
+    font-style: italic;
+ }
+ h3{
+    font-size: 20px;
+    color: white;
+    font-weight: 1000;
+    margin-top: -80px;
+    margin-left: 10px;
+ }
+.movie a button:hover {
+    box-shadow: 10px 10px 2px black inset;
+    color: rgb(51, 125, 185);
+    background-color: rgb(255, 25, 25); 
+ }
+ /* -------------------romantic------------------ */
+ .style1{
+    margin-top: -15px;
+    height: 120px;
+    /* background-image: url(../images/flower1.jpg); */
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-color: rgb(208 114 114);
+    /* border-bottom: 2px solid #000000; */
+ }
+ .nav{
+    font-size: 35px;
+    display: inline-block;
+    color: #535a7b;
+ }
+ .style1 button{
+    width: 10%;
+    font-size: 20px;
+    margin-left: 60px;
+    padding: 8px;
+    border-radius: 40px;
+    font-weight: 700;
+    /* margin:0 10px 10px; */
+    color: rgb(31 133 129);
+    background-color: rgb(255, 255, 246);
+    font-style: italic;
+ }
+ .style1 button:hover {
+    box-shadow: 10px 10px 2px black inset;
+    color: rgb(255, 25, 25);
+    background-color: rgb(51, 125, 185); 
+ }
+ .moviee{
+    background-image: url(../images/romantic15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* height: 700px; */
+    border-top: 5px solid black;
+ }
+ .cinema{
+    font-size: 55px;
+    margin-left: 5px;
+    color: #000000;
+ }
+ .w{
+    font-size: 60px;
+    font-weight: 1000;
+    margin-top: 20px;
+    margin-left: 380px;
+    text-align: center;
+    color:rgb(147 32 32);
+ }
+ .sent2{
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 30px;
+    color: white;
+ }
+ .romantic{
+    font-size: 40px;
+    font-weight: 100%;
+    margin-top: 20px;
+    margin-left: 520px;
+    color: white;
+    text-align: center;
+    background-color: rgb(0 0 0 / 40%);
+    border-radius: 30px;
+    display: block;
+    width: 30%;
+    border: 3px solid black;
+ }
+ .movies div {
+    /* margin-top: 30px; */
+    margin: 30px 10px 0px 10px;
+    border-radius: 16px;
+    padding: 10px;
+    height: 260px;
+    width: 200px;
+    display: flex;
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(70, 68, 68, 0.61);
+ }
+ .movies img {
+    margin-left: 10px;
+    width: 180px;
+    height:180px;
+    border-radius: 8px;
+    
+ }
+ .types{
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    color: rgba(255, 0, 0, 0.74);
+    text-align: center;
+    display: inline-block;
+    background-color: #6b6a6ac0;
+    border-radius: 15px;
+    border: 0px solid black }
+ .movies .m button{
+    width: 60%;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: -30px;
+    padding: 8px;
+    border-radius: 40px;
+    font-weight: 700;
+    /* margin:0 10px 10px; */
+    background-color: rgb(238, 238, 238);
+    font-style: italic;
+ }
+ .h3{
+    font-size: 25px;
+    color: white;
+    font-weight: 1000;
+    margin-top: 0px;
+    margin-left: 10px;
+ }
+.movies a button:hover {
+    box-shadow: 10px 10px 2px black inset;
+    color: rgb(51, 125, 185);
+    background-color: rgb(255, 25, 25); 
+ }
+ .movies {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .movies div {
+    margin-top: 60px;
+    border-radius: 8px;
+    padding: 17px;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(73, 73, 73, 0.738);
+ }
+ .main div {
+    display: flex;
+    justify-content: space-between;
+ }
+ .movies {
+    /* margin-left: 20px; */
+    display: flex;
+    justify-content: space-evenly;
+ }
+ a{
+    margin-top: -30px;
+ }
+ .back{
+    /* margin-left: 360px;
+    margin-right: 365px; */
+    margin:auto;
+    width: 68%;
+    background-color: #00000052;
+    display: block;
+    border-radius: 40px;
+    border: 5px solid #000000;
+ }

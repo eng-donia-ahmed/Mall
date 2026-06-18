@@ -1,0 +1,58 @@
+form {
+    width: 250px;
+    margin: auto;
+    margin-top: auto;
+    text-align: center;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 2px 25px black;
+}
+input {
+    border-radius: 5px;
+    width: 200px;
+}
+
+.sub {
+    width: 205px;
+    height: 25px;
+    border-radius: 20px;
+}
+.sub:hover {
+    cursor: pointer;
+    background-color: #ddd;
+}
+img {
+    width: 20px;
+    height: 20px;
+}
+button {
+    height: 30px;
+    width: 200px;
+    background-color: #033855;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+.g {
+    background-color: #a8a8a8;
+}
+button:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 6px rgb(69, 69, 148);
+}
+.g:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 6px rgb(187, 187, 187);
+}
+body {
+    background: linear-gradient(90deg , rgb(55, 120, 161) , rgb(191, 122, 122));
+}
+h1,
+p {
+    text-align: center;
+}
+.welcome {
+    font-size: 30px;
+}

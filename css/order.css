@@ -1,0 +1,17 @@
+.true {
+    display: flex;
+    justify-content: center;
+}
+.p {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+p{
+    font-size: xx-large;
+}
+
+body {
+    background-image: url(../images/bg6.jpg);
+    background-size: cover;
+}
